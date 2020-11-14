@@ -10,8 +10,7 @@ function HomePage() {
             <div className="mainheading">
                 <h1>The Art Page</h1>
                 <br></br>
-                <h3>Browse and make an online purchase</h3>
-                Testing
+                <h3>Browse and make an online purchase</h3>                
                 <br>
                 </br>
 
