@@ -1,0 +1,14 @@
+.content{
+    z-index: 1;
+   //  position: absolute;
+   //  top: 50%;
+   //  left: 50%;
+   //  transform: translate(-50%, -50%);
+
+    & .aboutimage {
+        width: 40%;
+        border-radius : 8px;
+        margin: auto;
+        margin-top: 5%;
+    }
+}
