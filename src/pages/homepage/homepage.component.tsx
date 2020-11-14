@@ -11,6 +11,7 @@ function HomePage() {
                 <h1>The Art Page</h1>
                 <br></br>
                 <h3>Browse and make an online purchase</h3>
+                Testing
                 <br>
                 </br>
 
