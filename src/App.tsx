@@ -1,16 +1,14 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
-import HomePage from './webpage/pages/homepage/homepage.component';
 import './App.scss';
-import Navigation from './webpage/components/navigation.component';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import HomePage from './webpage/components/homepage/homepage.component';
 
 function App() {
   return (
     <div className="App">
-      <Navigation></Navigation>
-      <header className="App-header">        
+       
         <Container>
           <BrowserRouter>
             <Switch>
@@ -18,7 +16,7 @@ function App() {
             </Switch>
             </BrowserRouter>
           </Container>
-      </header>
+     
     </div>
   );
 }

@@ -2,11 +2,15 @@ import React from 'react';
 import About from '../about/about.component';
 import Contact from '../contact/contact.component';
 import Project from '../projects/project.component';
-import ImageCarousel from './carousel.component';
+import ImageCarousel from '../carousel/carousel.component';
 import './homepage.style.scss';
+import Navigation from '../../components/navigation.component';
 
 function HomePage() {
     return (
+        <div>
+            <Navigation></Navigation>
+        
         <div id="homepage" className="homepage">
             <div className="background"></div>
             <div className="mainheading">
@@ -29,6 +33,7 @@ function HomePage() {
             <div>
                 <Contact></Contact>
             </div>
+        </div>
         </div>
     );
 }
