@@ -11,8 +11,7 @@ $paragraphcolor: rgb(38, 0, 115);
     bottom: 0;
     left: 0;
     right: 0;
-    // background: url($backGroundImage) center center;
-    background-color: #282c34;
+    // background: url($backGroundImage) center center;    
     opacity: .1;
     width: 100%;
     height: 100%;
@@ -21,9 +20,10 @@ $paragraphcolor: rgb(38, 0, 115);
     border-radius: 30px;
 }
   h1 {
-      font-family: $headerfont;
-      color: $headerColor;
+    //   font-family: $headerfont;
+    //   color: $headerColor;
       font-size: 50px;
+      padding-top: 70px;
 
   }
 

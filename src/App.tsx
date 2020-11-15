@@ -2,13 +2,15 @@ import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import HomePage from './pages/homepage/homepage.component';
-import './App.css';
-// import './App.scss';
+import './App.scss';
+import Navigation from './components/navigation.component';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <Navigation></Navigation>
+      <header className="App-header">        
         <Container>
           <BrowserRouter>
             <Switch>

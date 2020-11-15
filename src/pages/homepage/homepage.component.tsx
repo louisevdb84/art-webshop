@@ -1,6 +1,8 @@
 import React from 'react';
 import About from '../about/about.component';
 import Contact from '../contact/contact.component';
+import Project from '../projects/project.component';
+import ImageCarousel from './carousel.component';
 import './homepage.style.scss';
 
 function HomePage() {
@@ -10,17 +12,19 @@ function HomePage() {
             <div className="mainheading">
                 <h1>The Art Page</h1>
                 <br></br>
-                <h3>Browse and make an online purchase</h3>                
+                <h3>Browse and make an online purchase</h3>
                 <br>
                 </br>
+                <div style={{pageBreakAfter:"always", width: "30%", margin: "0 auto", paddingBottom:"20%"}}>
+                    <ImageCarousel></ImageCarousel>
+                </div>
 
-                {/* <ImageCarousel></ImageCarousel> */}
             </div>
             <div>
                 <About></About>
             </div>
             <div>
-                {/* <Project></Project> */}
+                <Project></Project>
             </div>
             <div>
                 <Contact></Contact>
