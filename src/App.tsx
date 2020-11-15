@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
-import HomePage from './pages/homepage/homepage.component';
+import HomePage from './webpage/pages/homepage/homepage.component';
 import './App.scss';
-import Navigation from './components/navigation.component';
+import Navigation from './webpage/components/navigation.component';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
