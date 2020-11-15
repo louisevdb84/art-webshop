@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/art-webshop/static/css/main.af13bfa1.chunk.css",
-    "main.js": "/art-webshop/static/js/main.d980da82.chunk.js",
-    "main.js.map": "/art-webshop/static/js/main.d980da82.chunk.js.map",
+    "main.js": "/art-webshop/static/js/main.dbfa1523.chunk.js",
+    "main.js.map": "/art-webshop/static/js/main.dbfa1523.chunk.js.map",
     "runtime-main.js": "/art-webshop/static/js/runtime-main.5bcd790c.js",
     "runtime-main.js.map": "/art-webshop/static/js/runtime-main.5bcd790c.js.map",
     "static/css/2.b6d2982e.chunk.css": "/art-webshop/static/css/2.b6d2982e.chunk.css",
     "static/js/2.060f35ee.chunk.js": "/art-webshop/static/js/2.060f35ee.chunk.js",
     "static/js/2.060f35ee.chunk.js.map": "/art-webshop/static/js/2.060f35ee.chunk.js.map",
     "index.html": "/art-webshop/index.html",
-    "precache-manifest.50517d261bcfa5103904321c0502438d.js": "/art-webshop/precache-manifest.50517d261bcfa5103904321c0502438d.js",
+    "precache-manifest.af94cf82dedefc286757052ea4b1d01e.js": "/art-webshop/precache-manifest.af94cf82dedefc286757052ea4b1d01e.js",
     "service-worker.js": "/art-webshop/service-worker.js",
     "static/css/2.b6d2982e.chunk.css.map": "/art-webshop/static/css/2.b6d2982e.chunk.css.map",
     "static/css/main.af13bfa1.chunk.css.map": "/art-webshop/static/css/main.af13bfa1.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.b6d2982e.chunk.css",
     "static/js/2.060f35ee.chunk.js",
     "static/css/main.af13bfa1.chunk.css",
-    "static/js/main.d980da82.chunk.js"
+    "static/js/main.dbfa1523.chunk.js"
   ]
 }

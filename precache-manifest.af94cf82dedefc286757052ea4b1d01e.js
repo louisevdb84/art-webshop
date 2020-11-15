@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60493518c727268ff025fb18277d8048",
+    "revision": "d1ae63594eb6f9d6eb4b2f2d3d1fce5a",
     "url": "/art-webshop/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/art-webshop/static/css/2.b6d2982e.chunk.css"
   },
   {
-    "revision": "52e76eef095c7d1d44b2",
+    "revision": "89545e984c67cae37068",
     "url": "/art-webshop/static/css/main.af13bfa1.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/art-webshop/static/js/2.060f35ee.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "52e76eef095c7d1d44b2",
-    "url": "/art-webshop/static/js/main.d980da82.chunk.js"
+    "revision": "89545e984c67cae37068",
+    "url": "/art-webshop/static/js/main.dbfa1523.chunk.js"
   },
   {
     "revision": "5ba7d8bf74b6c43871cc",
