@@ -4,6 +4,7 @@ import { Container } from 'react-bootstrap';
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from './webpage/components/homepage/homepage.component';
+import Webshop from './webshop/pages/webshop.component';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         <Container>
           <BrowserRouter>
             <Switch>
-              <Route exact path="/art-webshop/" component={HomePage} />                          
+              <Route exact path="/art-webshop/" component={HomePage} />    
+              <Route exact path="/webshop" component={Webshop} />                               
             </Switch>
             </BrowserRouter>
           </Container>
