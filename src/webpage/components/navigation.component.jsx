@@ -28,7 +28,7 @@ class Navigation extends Component {
               <Nav.Link>Contact</Nav.Link>
             </ScrollIntoView>
           </Nav>
-          <Nav.Link className="customLink" href="/art/webshop">Webshop</Nav.Link>
+          <Nav.Link className="customLink" href="/art-webshop/webshop">Webshop</Nav.Link>
          
         </Navbar.Collapse>
       </Navbar>
