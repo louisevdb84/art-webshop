@@ -16,6 +16,9 @@ class Navigation extends Component {
           <Nav.Link className="customLink" href="/art-webshop">
             Website
           </Nav.Link>
+          <Nav.Link className="customLink" href="/art-webshop/signin">
+            Sign In
+          </Nav.Link>
         </Navbar.Collapse>
       </Navbar>
     );
