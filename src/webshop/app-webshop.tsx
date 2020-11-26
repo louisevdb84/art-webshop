@@ -13,7 +13,7 @@ function App() {
 
           <BrowserRouter>
             <Switch>              
-              <Route exact path="/webshop" component={Webshop} />                               
+              <Route exact path="/art-webshop/webshop" component={Webshop} />                               
             </Switch>
             </BrowserRouter>
           </Container>

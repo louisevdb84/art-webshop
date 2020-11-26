@@ -14,7 +14,7 @@ function App() {
           <BrowserRouter>
             <Switch>
               <Route exact path="/art-webshop/" component={HomePage} />    
-              <Route exact path="/webshop" component={WebshopApp} />                               
+              <Route exact path="/art-webshop/webshop" component={WebshopApp} />                               
             </Switch>
             </BrowserRouter>
           </Container>
