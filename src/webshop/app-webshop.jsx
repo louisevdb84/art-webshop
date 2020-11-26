@@ -9,6 +9,7 @@ import { setCurrentUser } from './redux/user/user.actions';
 import { selectCurrentUser } from './redux/user/user.selectors';
 import { createStructuredSelector } from 'reselect';
 import SignIn from '../webshop/pages/sign-in.component';
+import Register from '../webshop/pages/register.component';
 
 
 class AppWebshop extends React.Component {
@@ -45,10 +46,10 @@ class AppWebshop extends React.Component {
         <BrowserRouter>
         <Switch>
         {/* <Route exact path="/art-webshop/webshop" component={Webshop} />                       */}
-        <Route exact path="/art-webshop/signin" component={Webshop} />                      
+        <Route exact path="/art-webshop/register" component={Register} />                      
         <Route
             exact
-            path='/art-webshop/signin2'
+            path='/art-webshop/signin'
             render={() =>
               this.props.currentUser ? (
                 <Redirect to='/' />

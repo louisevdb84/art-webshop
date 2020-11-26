@@ -9,11 +9,10 @@ import { selectCurrentUser } from './webshop/redux/user/user.selectors';
 import { createStructuredSelector } from 'reselect';
 import SignIn from './webshop/pages/sign-in.component';
 
-import { Container } from 'react-bootstrap';
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from './webpage/components/homepage/homepage.component';
-import Navigation from './webpage/components/navigation.component';
+import Register from './webshop/pages/register.component';
 
 
 class App extends React.Component {
@@ -45,13 +44,13 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Navigation></Navigation>        
+               
 
         <BrowserRouter>
         <Switch>
         <Route exact path="/art-webshop/" component={HomePage} />    
         <Route exact path="/art-webshop/webshop" component={Webshop} />                                                   
-        {/* <Route exact path="/art-webshop/signin" component={SignIn} />                       */}
+        <Route exact path="/art-webshop/register" component={Register} />                      
         <Route
             exact
             path='/art-webshop/signin'
